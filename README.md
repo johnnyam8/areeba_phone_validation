@@ -37,7 +37,7 @@ A Java Spring Boot microservice utilizing Google's libphonenumber library for va
     - The microservice will run on http://localhost:8080.
     - Verify the application is running by checking the output logs.
 
-5. **Run the Application Using docker** :
+5. **Run the Application Using Docker** :
     -  Download docker and follow the details installation  - https://docs.docker.com/get-docker/
       
     - Navigate to the project directory: 
