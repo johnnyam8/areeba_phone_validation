@@ -50,7 +50,7 @@ A Java Spring Boot microservice utilizing Google's libphonenumber library for va
        ```
     -   After building the project, docker should be able to create an image, check the image created:
       ```
-        docker images.
+        docker images
       ```
     -  Run the image:
      ```
