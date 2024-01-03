@@ -56,7 +56,7 @@ A Java Spring Boot microservice utilizing Google's libphonenumber library for va
      ```
         docker run -p 8080:8080 [docker image id]
      ```
-     -  Verify the application is running by checking the output logs, or by running the following command:
+     -  Verify the application is running by checking the output logs or by running the following command:
      ```
         docker ps
      ```
