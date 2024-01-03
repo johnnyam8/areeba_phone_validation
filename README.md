@@ -37,7 +37,7 @@ A Java Spring Boot microservice utilizing Google's libphonenumber library for va
     - The microservice will run on http://localhost:8080.
     - Verify the application is running by checking the output logs.
 
-4.1  **Run the Application Using docker ** :
+4.1. **Run the Application Using docker** :
    The Microservice contains docker file that allow the application to run on docker container, kindly follow the below steps.
     - Download docker and follow the details installation  - https://docs.docker.com/get-docker/
     - Navigate to the project directory 
@@ -48,7 +48,7 @@ A Java Spring Boot microservice utilizing Google's libphonenumber library for va
        ```
         docker build -t areeba_phone_validation .
       ```
-    - After building the project, docker should be able to create an image
+    - After building the project, docker should be able to create an image, check the image created.
       ```
         docker images.
       ```
@@ -57,6 +57,7 @@ A Java Spring Boot microservice utilizing Google's libphonenumber library for va
         docker run -p 8080:8080 [docker image id]
      ```
      - Verify the application is running by checking the output logs.
+     
 ### Usage
  
 Access the Swagger API documentation at http://localhost:8080/swagger-ui/index.html#/ for details on API usage.
