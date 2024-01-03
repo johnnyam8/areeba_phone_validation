@@ -16,7 +16,7 @@ Java Spring Boot microservice for validating mobile numbers using Google's libph
 
 ### Installation
 
-1.Clone the repository from the following url https://github.com/johnnyam8/areeba_phone_validation.git)
+1.Clone the repository from the following url https://github.com/johnnyam8/areeba_phone_validation.git
 2. cd areeba_phone_validation
 4. **Build the Application**:
     - Run `./mvnw clean install` to build the application.
