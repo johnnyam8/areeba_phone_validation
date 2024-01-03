@@ -40,23 +40,26 @@ A Java Spring Boot microservice utilizing Google's libphonenumber library for va
 5. **Run the Application Using docker** :
     -  Download docker and follow the details installation  - https://docs.docker.com/get-docker/
       
-    - Navigate to the project directory 
+    - Navigate to the project directory: 
       ```
        cd areeba_phone_validation
       ```
-   -  Build the docker image 
+   -  Build the docker image: 
        ```
         docker build -t areeba_phone_validation .
        ```
-    -   After building the project, docker should be able to create an image, check the image created.
+    -   After building the project, docker should be able to create an image, check the image created:
       ```
         docker images.
       ```
-    -  Run the image
+    -  Run the image:
      ```
         docker run -p 8080:8080 [docker image id]
      ```
-     -  Verify the application is running by checking the output logs.
+     -  Verify the application is running by checking the output logs, or by running the following command:
+     ```
+        docker ps
+     ```
      
 ### Usage
  
